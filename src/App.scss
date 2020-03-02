@@ -310,28 +310,56 @@ nav a {
 
 .creators div {
   display: inline-block;
-  margin-right: 50px;
-  margin-left: 50px;
-  font-size: 26pt;
+
+  font-size: 18pt;
   color: #e57a9b;
+}
+.creators .persons{
+
+padding:10px;
+margin : 5px;
 }
 .creators {
   background-color: #c6ecc7;
+  font-size: 12pt;
+  border : 5px solid #F85F28;
 }
 .creators div img {
-  width: 220px;
+  width: 150px;
+  height:150px;
   border-top-left-radius: 50% 50%;
   border-top-right-radius: 50% 50%;
   border-bottom-right-radius: 50% 50%;
   border-bottom-left-radius: 50% 50%;
+
 }
+.creators div img:hover{
+  width:200px;
+  height:200px;
+  opacity: .8;
+
+}
+
+
 .contact-links ul li {
   list-style-type: none;
   text-decoration: none;
+  font-size: 12pt;
+  display: flex;
 }
 .contact-links ul li a {
+  font-size: 12pt;
+  color: #e57a9b !important;
+padding: 10px;   
+  
+}
+.contact-links ul li a:hover{
   font-size: 16pt;
+  color:#1F33F6 !important;
+  text-decoration: none;
 }
 .contact-links ul li a p {
   color: #e57a9b;
 }
+
+
