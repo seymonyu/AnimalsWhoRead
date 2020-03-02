@@ -25,12 +25,7 @@ const Articles = props => (
                     : `${article.title.substring(0, 20)}...`}
                 </h5>
                 <p className="articles__subtitle">
-                  Stinky Human Author:{" "}
-                  <span>
-                    {article.author.length < 20
-                      ? `${article.author}`
-                      : `${article.author.substring(0, 10)}...`}
-                  </span>
+                  Stinky Human Author: {article.author}
                 </p>
               </div>
               <button className="article_buttons">

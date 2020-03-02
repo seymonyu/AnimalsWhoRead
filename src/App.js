@@ -1,12 +1,13 @@
 import React, { Component } from "react";
 import "./App.scss";
-import Ticker from "./components/Ticker";
+//import Ticker from "./components/Ticker";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Header from "./components/Header";
 import Form from "./components/Form";
 import Articles from "./components/Articles";
 import Logo from "./components/Logo";
 import Mission from "./components/Mission";
+import NavBar from "./components/NavBar";
 
 const API_KEY = "38c6325b37ef4200b8d0b52b8e8ab90b";
 
@@ -28,12 +29,6 @@ class App extends Component {
     console.log(this.state.articles);
   };
 
-  componentDidMount = () => {
-    const json = localStorage.getItem("articles");
-    const articles = JSON.parse(json);
-    this.setState({ articles: articles });
-  };
-
   componentDidUpdate = () => {
     const articles = JSON.stringify(this.state.articles);
     localStorage.setItem("articles", articles);
@@ -42,6 +37,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <NavBar />
         <Logo />
         <Header />
         <Mission />
