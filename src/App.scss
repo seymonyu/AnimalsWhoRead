@@ -307,3 +307,29 @@ nav a {
   color: #f72143;
   padding-bottom: 50px;
 }
+
+.creators div {
+  display: inline-block;
+  margin: 50px;
+  font-size: 26pt;
+  color: #e57a9b;
+}
+.creators {
+  background-color: #c6ecc7;
+}
+.creators div img {
+  width: 220px;
+  border-top-left-radius: 50% 50%;
+  border-top-right-radius: 50% 50%;
+  border-bottom-right-radius: 50% 50%;
+  border-bottom-left-radius: 50% 50%;
+}
+.contact-links ul li {
+  list-style-type: none;
+  text-decoration: none;
+}
+.contact-links ul li a {
+  font-size: 16pt;
+  color: #e57a9b;
+  background-color: plum;
+}
