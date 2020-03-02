@@ -7,8 +7,8 @@ import Form from "./components/Form";
 import Articles from "./components/Articles";
 import Logo from "./components/Logo";
 import Mission from "./components/Mission";
+import Contact from "./components/Contact";
 
-import Footer from "./components/Footer";
 
 
 //import { Link } from "react-router-dom";
@@ -60,7 +60,6 @@ class App extends Component {
         <Form getArticles={this.getArticles} />
         <Articles articles={this.state.articles} />
      
-        <Footer />
       </div>
     );
   }
