@@ -7,7 +7,7 @@ import Form from "./components/Form";
 import Articles from "./components/Articles";
 import Logo from "./components/Logo";
 import Mission from "./components/Mission";
-/*import { Link } from "react-router-dom";*/
+//import { Link } from "react-router-dom";
 
 const API_KEY = "38c6325b37ef4200b8d0b52b8e8ab90b";
 
@@ -18,7 +18,7 @@ class App extends Component {
 
   // Making the API Call
   getArticles = async e => {
-    const articleName = e.target.elements.articleName.value;
+    const articleName = e.target.elements.articleName.value || "chicken";
     e.preventDefault();
     const api_call = await fetch(
       `http://newsapi.org/v2/everything?q=${articleName}&apiKey=${API_KEY}&pageSize=20`
@@ -29,11 +29,14 @@ class App extends Component {
     console.log(this.state.articles);
   };
 
-  componentDidMount = () => {
+  /*   componentDidMount = () => {
     const json = localStorage.getItem("articles");
+    console.log(json);
     const articles = JSON.parse(json);
+    console.log(articles);
+
     this.setState({ articles: articles });
-  };
+  }; */
 
   componentDidUpdate = () => {
     const articles = JSON.stringify(this.state.articles);
