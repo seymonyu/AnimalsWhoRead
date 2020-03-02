@@ -8,6 +8,8 @@ import Articles from "./components/Articles";
 import Logo from "./components/Logo";
 import Mission from "./components/Mission";
 import Footer from "./components/Footer";
+
+
 //import { Link } from "react-router-dom";
 
 const API_KEY = "38c6325b37ef4200b8d0b52b8e8ab90b";

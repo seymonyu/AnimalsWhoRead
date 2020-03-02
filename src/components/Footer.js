@@ -1,5 +1,6 @@
 import React from "react";
 
+
 function Footer(props) {
   return (
     <section>
@@ -10,7 +11,7 @@ function Footer(props) {
             alt="ligita"
           />
           <p>Ligita Montvilaite</p>
-          <div class="contact-links">
+          <div className="contact-links">
             <ul>
               <li>
                 <a
@@ -18,7 +19,7 @@ function Footer(props) {
                   href="https://github.com/seymonyu"
                   target="_blank"
                 >
-                  <i class="fab fa-github"></i> <p>GitHub</p>
+                  <i className="fab fa-github"></i> <p>GitHub</p>
                 </a>
               </li>
               <li>
@@ -27,7 +28,7 @@ function Footer(props) {
                   href="https://instagram.com/seymonyuu"
                   target="_blank"
                 >
-                  <i class="fab fa-instagram"></i>
+                  <i className="fab fa-instagram"></i>
 
                   <p>Instagram</p>
                 </a>
@@ -38,7 +39,7 @@ function Footer(props) {
                   href="https://www.facebook.com/seymonyu"
                   target="_blank"
                 >
-                  <i class="fab fa-facebook-square"></i> <p>Facebook</p>
+                  <i className="fab fa-facebook-square"></i> <p>Facebook</p>
                 </a>
               </li>
             </ul>
@@ -58,7 +59,7 @@ function Footer(props) {
                   href="https://github.com/seymonyu"
                   target="_blank"
                 >
-                  <i class="fab fa-github"></i> <p>GitHub</p>
+                  <i className="fab fa-github"></i> <p>GitHub</p>
                 </a>
               </li>
               <li>
@@ -67,7 +68,7 @@ function Footer(props) {
                   href="https://instagram.com/seymonyuu"
                   target="_blank"
                 >
-                  <i class="fab fa fa-instagram"></i>
+                  <i className="fab fa fa-instagram"></i>
                   <p>Instagram</p>
                 </a>
               </li>
@@ -77,7 +78,7 @@ function Footer(props) {
                   href="https://www.facebook.com/seymonyu"
                   target="_blank"
                 >
-                  <i class="fab fa-facebook-square"></i> <p>Facebook</p>
+                  <i className="fab fa-facebook-square"></i> <p>Facebook</p>
                 </a>
               </li>
             </ul>
@@ -98,7 +99,7 @@ function Footer(props) {
                   href="https://github.com/seymonyu"
                   target="_blank"
                 >
-                  <i class="fab fa-github"></i> <p>GitHub</p>
+                  <i className="fab fa-github"></i> <p>GitHub</p>
                 </a>
               </li>
               <li>
@@ -107,7 +108,7 @@ function Footer(props) {
                   href="https://instagram.com/seymonyuu"
                   target="_blank"
                 >
-                  <i class="fab fa fa-instagram"></i> <p>Instagram</p>
+                  <i className="fab fa fa-instagram"></i> <p>Instagram</p>
                 </a>
               </li>
               <li>
@@ -116,7 +117,7 @@ function Footer(props) {
                   href="https://www.facebook.com/seymonyu"
                   target="_blank"
                 >
-                  <i class="fab fa-facebook-square"></i> <p>Facebook</p>
+                  <i className="fab fa-facebook-square"></i> <p>Facebook</p>
                 </a>
               </li>
             </ul>
@@ -129,7 +130,7 @@ function Footer(props) {
             alt="aigul"
           />
           <p>Aigul Imaralieva</p>
-          <div class="contact-links">
+          <div className="contact-links">
             <ul>
               <li>
                 <a
@@ -137,7 +138,7 @@ function Footer(props) {
                   href="https://github.com/seymonyu"
                   target="_blank"
                 >
-                  <i class="fab fa-github"></i> <p>GitHub</p>
+                  <i className="fab fa-github"></i> <p>GitHub</p>
                 </a>
               </li>
               <li>
@@ -146,7 +147,7 @@ function Footer(props) {
                   href="https://instagram.com/seymonyuu"
                   target="_blank"
                 >
-                  <i class="fab fa fa-instagram"></i>
+                  <i className="fab fa fa-instagram"></i>
                   <p>Instagram</p>
                 </a>
               </li>
@@ -156,7 +157,7 @@ function Footer(props) {
                   href="https://www.facebook.com/seymonyu"
                   target="_blank"
                 >
-                  <i class="fab fa-facebook-square"></i> <p>Facebook</p>
+                  <i className="fab fa-facebook-square"></i> <p>Facebook</p>
                 </a>
               </li>
             </ul>
