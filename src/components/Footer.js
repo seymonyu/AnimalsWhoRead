@@ -18,7 +18,7 @@ function Footer(props) {
                   href="https://github.com/seymonyu"
                   target="_blank"
                 >
-                  <i class="fab fa-github"></i> GitHub
+                  <i class="fab fa-github"></i> <p>GitHub</p>
                 </a>
               </li>
               <li>
@@ -27,7 +27,9 @@ function Footer(props) {
                   href="https://instagram.com/seymonyuu"
                   target="_blank"
                 >
-                  <i class="fab fa fa-instagram"></i>Instagram
+                  <i class="fab fa-instagram"></i>
+
+                  <p>Instagram</p>
                 </a>
               </li>
               <li>
@@ -36,7 +38,7 @@ function Footer(props) {
                   href="https://www.facebook.com/seymonyu"
                   target="_blank"
                 >
-                  <i class="fab fa-facebook-square"></i> Facebook
+                  <i class="fab fa-facebook-square"></i> <p>Facebook</p>
                 </a>
               </li>
             </ul>
@@ -56,7 +58,7 @@ function Footer(props) {
                   href="https://github.com/seymonyu"
                   target="_blank"
                 >
-                  <i class="fab fa-github"></i> GitHub
+                  <i class="fab fa-github"></i> <p>GitHub</p>
                 </a>
               </li>
               <li>
@@ -65,7 +67,8 @@ function Footer(props) {
                   href="https://instagram.com/seymonyuu"
                   target="_blank"
                 >
-                  <i class="fab fa fa-instagram"></i>Instagram
+                  <i class="fab fa fa-instagram"></i>
+                  <p>Instagram</p>
                 </a>
               </li>
               <li>
@@ -74,7 +77,7 @@ function Footer(props) {
                   href="https://www.facebook.com/seymonyu"
                   target="_blank"
                 >
-                  <i class="fab fa-facebook-square"></i> Facebook
+                  <i class="fab fa-facebook-square"></i> <p>Facebook</p>
                 </a>
               </li>
             </ul>
@@ -95,7 +98,7 @@ function Footer(props) {
                   href="https://github.com/seymonyu"
                   target="_blank"
                 >
-                  <i class="fab fa-github"></i> GitHub
+                  <i class="fab fa-github"></i> <p>GitHub</p>
                 </a>
               </li>
               <li>
@@ -104,7 +107,7 @@ function Footer(props) {
                   href="https://instagram.com/seymonyuu"
                   target="_blank"
                 >
-                  <i class="fab fa fa-instagram"></i>Instagram
+                  <i class="fab fa fa-instagram"></i> <p>Instagram</p>
                 </a>
               </li>
               <li>
@@ -113,7 +116,7 @@ function Footer(props) {
                   href="https://www.facebook.com/seymonyu"
                   target="_blank"
                 >
-                  <i class="fab fa-facebook-square"></i> Facebook
+                  <i class="fab fa-facebook-square"></i> <p>Facebook</p>
                 </a>
               </li>
             </ul>
@@ -134,7 +137,7 @@ function Footer(props) {
                   href="https://github.com/seymonyu"
                   target="_blank"
                 >
-                  <i class="fab fa-github"></i> GitHub
+                  <i class="fab fa-github"></i> <p>GitHub</p>
                 </a>
               </li>
               <li>
@@ -143,7 +146,8 @@ function Footer(props) {
                   href="https://instagram.com/seymonyuu"
                   target="_blank"
                 >
-                  <i class="fab fa fa-instagram"></i>Instagram
+                  <i class="fab fa fa-instagram"></i>
+                  <p>Instagram</p>
                 </a>
               </li>
               <li>
@@ -152,7 +156,7 @@ function Footer(props) {
                   href="https://www.facebook.com/seymonyu"
                   target="_blank"
                 >
-                  <i class="fab fa-facebook-square"></i> Facebook
+                  <i class="fab fa-facebook-square"></i> <p>Facebook</p>
                 </a>
               </li>
             </ul>

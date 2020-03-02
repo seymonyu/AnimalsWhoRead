@@ -310,7 +310,8 @@ nav a {
 
 .creators div {
   display: inline-block;
-  margin: 50px;
+  margin-right: 50px;
+  margin-left: 50px;
   font-size: 26pt;
   color: #e57a9b;
 }
@@ -330,6 +331,7 @@ nav a {
 }
 .contact-links ul li a {
   font-size: 16pt;
+}
+.contact-links ul li a p {
   color: #e57a9b;
-  background-color: plum;
 }
