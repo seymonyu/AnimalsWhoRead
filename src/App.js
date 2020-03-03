@@ -7,6 +7,12 @@ import Form from "./components/Form";
 import Articles from "./components/Articles";
 import Logo from "./components/Logo";
 import Mission from "./components/Mission";
+import Contact from "./components/Contact";
+
+
+
+//import { Link } from "react-router-dom";
+
 import NavBar from "./components/NavBar";
 import { Button } from "react-bootstrap";
 
@@ -19,7 +25,7 @@ class App extends Component {
 
   // Making the API Call
   getArticles = async e => {
-    const articleName = e.target.elements.articleName.value;
+    const articleName = e.target.elements.articleName.value || "chicken";
     e.preventDefault();
     const api_call = await fetch(
       `http://newsapi.org/v2/everything?q=${articleName}&apiKey=${API_KEY}&pageSize=20`
@@ -29,6 +35,16 @@ class App extends Component {
     this.setState({ articles: data.articles });
     console.log(this.state.articles);
   };
+
+
+  /*   componentDidMount = () => {
+    const json = localStorage.getItem("articles");
+    console.log(json);
+    const articles = JSON.parse(json);
+    console.log(articles);
+
+    this.setState({ articles: articles });
+  }; */
 
   componentDidUpdate = () => {
     const articles = JSON.stringify(this.state.articles);
@@ -44,7 +60,11 @@ class App extends Component {
         <Mission />
         <Form getArticles={this.getArticles} />
         <Articles articles={this.state.articles} />
+<<<<<<< HEAD
+     
+=======
         <Ticker />
+>>>>>>> development
       </div>
     );
   }
