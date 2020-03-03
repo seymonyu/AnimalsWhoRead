@@ -28,7 +28,7 @@ class App extends Component {
     console.log(this.state.articles);
   };
 
-  componentDidMount = () => {
+  /*componentDidMount = () => {
     const json = localStorage.getItem("articles");
     const articles = JSON.parse(json);
     this.setState({ articles: articles });
@@ -37,11 +37,12 @@ class App extends Component {
   componentDidUpdate = () => {
     const articles = JSON.stringify(this.state.articles);
     localStorage.setItem("articles", articles);
-  };
+  };*/
 
   render() {
     return (
       <div className="App">
+        <Ticker />
         <Logo />
         <Header />
         <Mission />
