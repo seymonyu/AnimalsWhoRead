@@ -54,7 +54,7 @@ function Footer(props) {
             <div className="avatar">
                 <a href="" target="_blank" alt="seyma"> 
           <img
-            src="https://media-exp1.licdn.com/dms/image/C4E03AQEFZoXL9erV7Q/profile-displayphoto-shrink_200_200/0?e=1588809600&v=beta&t=k5TF3PHin04H0OuWi0yvg6Cn1_GPEeDpz8Unr9_x6Fo"
+            src="https://scontent-amt2-1.cdninstagram.com/v/t51.2885-19/s150x150/74914899_752779961911823_4792491321111609344_n.jpg?_nc_ht=scontent-amt2-1.cdninstagram.com&_nc_ohc=UoIn6WsFFi8AX8fEOeA&oh=acbfda65f5c640a9b8b1095a144472bc&oe=5E84D112"
             alt="seyma"
           />
           <p>Şeyma Fırat</p>
