@@ -7,10 +7,7 @@ import Form from "./components/Form";
 import Articles from "./components/Articles";
 import Logo from "./components/Logo";
 import Mission from "./components/Mission";
-import Contact from "./components/Contact";
-import { Link } from "react-router-dom";
 import NavBar from "./components/NavBar";
-import { Button } from "react-bootstrap";
 
 const API_KEY = "38c6325b37ef4200b8d0b52b8e8ab90b";
 
