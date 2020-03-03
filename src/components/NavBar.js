@@ -24,23 +24,13 @@ const NavBar = props => (
           </a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">
-            Features
-          </a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link" href="#">
-            Pricing
-          </a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link disabled" href="#">
-            Disabled
-          </a>
-        </li>
-        <li className="nav-item">
           <a className="nav-link" href="survey">
-            Survey
+            Extinction
+          </a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link" href="contact">
+            Humans Who Help
           </a>
         </li>
       </ul>

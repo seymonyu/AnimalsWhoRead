@@ -8,11 +8,7 @@ import Articles from "./components/Articles";
 import Logo from "./components/Logo";
 import Mission from "./components/Mission";
 import Contact from "./components/Contact";
-
-
-
-//import { Link } from "react-router-dom";
-
+import { Link } from "react-router-dom";
 import NavBar from "./components/NavBar";
 import { Button } from "react-bootstrap";
 
@@ -36,16 +32,6 @@ class App extends Component {
     console.log(this.state.articles);
   };
 
-
-  /*   componentDidMount = () => {
-    const json = localStorage.getItem("articles");
-    console.log(json);
-    const articles = JSON.parse(json);
-    console.log(articles);
-
-    this.setState({ articles: articles });
-  }; */
-
   componentDidUpdate = () => {
     const articles = JSON.stringify(this.state.articles);
     localStorage.setItem("articles", articles);
@@ -60,11 +46,7 @@ class App extends Component {
         <Mission />
         <Form getArticles={this.getArticles} />
         <Articles articles={this.state.articles} />
-<<<<<<< HEAD
-     
-=======
         <Ticker />
->>>>>>> development
       </div>
     );
   }
