@@ -38,6 +38,11 @@ const NavBar = props => (
             Disabled
           </a>
         </li>
+        <li className="nav-item">
+          <a className="nav-link" href="survey">
+            Survey
+          </a>
+        </li>
       </ul>
     </div>
   </nav>
