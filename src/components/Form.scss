@@ -1,0 +1,92 @@
+/* COLORS */
+$red: #f72143;
+$intense-blue: #1f33f6;
+$light-green: #c6ecc7;
+$dark-blue: #101b5f;
+$light-orange: #f0a56b;
+$orange: #ad5535;
+$green: #1e8059;
+$pink: #e57a9b;
+$white: #ffffff;
+
+/* FONT FAMILY */
+$font: "Roboto";
+
+/* FONT WEIGHTS */
+$light: 300;
+$medium: 500;
+
+/* FONT SIZE */
+$h1: 15vw;
+$h2: 5vw;
+$bodytext: 1.5vw;
+$marginal: 14px;
+
+/* BORDER */
+$border-thick: 20px;
+$border-thin: 3px;
+
+form {
+  background-color: $pink;
+  min-height: 20vh;
+  border-top: $dark-blue solid;
+  border-width: 1.25vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn--section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $light-orange;
+  height: 30vh;
+  flex-direction: column;
+  margin-bottom: 30%;
+}
+
+.btn {
+  border-radius: 0px;
+  width: 60vw;
+  color: $white;
+  background-color: $light-orange;
+  margin-top: 2%;
+  max-height: 70px;
+  display: flex;
+  align-items: center;
+  width: 70%;
+  margin: auto;
+  max-width: 22em;
+  position: relative;
+  box-sizing: border-box;
+  border-image-width: initial;
+  border-image-outset: initial;
+  border-image-repeat: initial;
+  border-image-source: linear-gradient(
+    40deg,
+    rgb(229, 122, 155) 0%,
+    rgb(240, 165, 107) 40%,
+    rgb(240, 165, 107) 60%,
+    rgb(30, 128, 89) 100%
+  );
+  border-image-slice: 1;
+  opacity: 1;
+  border-width: 1.25vw;
+  border-style: solid;
+  border-color: initial;
+  transition: opacity 0.6s ease-out 0.6s;
+
+  &:hover {
+    color: $white;
+    transition: 0.5s;
+    background: linear-gradient(
+      40deg,
+      rgb(229, 122, 155) 0%,
+      rgb(240, 165, 107) 40%,
+      rgb(240, 165, 107) 60%,
+      rgb(30, 128, 89) 100%
+    );
+  }
+}

@@ -195,6 +195,7 @@ section {
 }
 .panda {
   width: 70%;
+  height: 30vh;
 }
 @media screen and (max-width: 900px) {
   .panda {

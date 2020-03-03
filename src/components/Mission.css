@@ -24,10 +24,10 @@
   border-image-repeat: initial;
   border-image-source: linear-gradient(
     40deg,
-    #c6ecc7 0%,
+    #e57a9b 0%,
     #101b5f 40%,
     #101b5f 60%,
-    #e57a9b 100%
+    #c6ecc7 100%
   );
   border-image-slice: 1;
   opacity: 1;
@@ -65,10 +65,13 @@
     top: -60px;
   }
 }
+body {
+  background-color: #101b5f;
+}
 #mission p {
   font-size: 200%;
   margin: 5%;
-  background: -webkit-linear-gradient(#e57a9b, #c6ecc7);
+  background: -webkit-linear-gradient(#c6ecc7, #e57a9b);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -82,7 +85,7 @@
 }
 h2 {
   font-size: 300%;
-  color: #fff;
+  color: #c6ecc7;
   margin: 5%;
   padding-top: 10%;
   align-self: flex-start;
