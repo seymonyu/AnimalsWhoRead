@@ -2,12 +2,14 @@ import React from "react";
 import { BrowserRouter, Switch, Route, Link } from "react-router-dom";
 import App from "../App";
 import Article from "./Article";
+import Survey from "./Survey";
 
 const Router = () => (
   <BrowserRouter>
     <Switch>
       <Route path="/" component={App} exact />
       <Route path="/article/:title" component={Article} />
+      <Route path="/survey" component={Survey} />
     </Switch>
   </BrowserRouter>
 );

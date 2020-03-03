@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./App.scss";
-//import Ticker from "./components/Ticker";
+import Ticker from "./components/Ticker";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Header from "./components/Header";
 import Form from "./components/Form";
@@ -8,6 +8,7 @@ import Articles from "./components/Articles";
 import Logo from "./components/Logo";
 import Mission from "./components/Mission";
 import NavBar from "./components/NavBar";
+import { Button } from "react-bootstrap";
 
 const API_KEY = "38c6325b37ef4200b8d0b52b8e8ab90b";
 
@@ -43,6 +44,7 @@ class App extends Component {
         <Mission />
         <Form getArticles={this.getArticles} />
         <Articles articles={this.state.articles} />
+        <Ticker />
       </div>
     );
   }
