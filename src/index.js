@@ -3,7 +3,11 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import Router from "./components/Router";
 import * as serviceWorker from "./serviceWorker";
+<<<<<<< HEAD
 import "font-awesome/css/font-awesome.min.css";
+=======
+import "bootstrap/dist/css/bootstrap.min.css";
+>>>>>>> development
 
 ReactDOM.render(<Router />, document.getElementById("root"));
 
