@@ -74,10 +74,10 @@ $border-thin: 3px;
   border-radius: 0.25rem;
 }
 
-.navbar-light .navbar-toggler-icon {
-  background-image: url(./img/toggler.svg);
-  width: 100px;
-}
+// .navbar-light .navbar-toggler-icon {
+//   background-image: url("./images/toggler.svg");
+//   width: 100px;
+// }
 
 @media screen and (max-width: 600px) {
   .navbar-light .navbar-toggler-icon {
