@@ -1,18 +1,18 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./Fun.scss";
-import dog from "./dog.gif";
-import dog2 from "./dog2.gif";
-import dog3 from "./dog3.gif";
-import elef from "./elef.gif";
-import pig from "./pig.gif";
-import pauk from "./pauk.gif";
-import animal2 from "./animal2.gif";
-import animal3 from "./animal3.gif";
-import animal4 from "./animal4.gif";
-import cat from "./cat.gif";
-import giphy from "./giphy.gif";
-import octop from "./octop.gif";
+import "./stylesheets/Fun.scss";
+import dog from "./images/dog.gif";
+import dog2 from "./images/dog2.gif";
+import dog3 from "./images/dog3.gif";
+import elef from "./images/elef.gif";
+import pig from "./images/pig.gif";
+import pauk from "./images/pauk.gif";
+import animal2 from "./images/animal2.gif";
+import animal3 from "./images/animal3.gif";
+import animal4 from "./images/animal4.gif";
+import cat from "./images/cat.gif";
+import giphy from "./images/giphy.gif";
+import octop from "./images/octop.gif";
 
 const Fun = props => (
   <section id="fun">

@@ -1,5 +1,5 @@
 import React from "react";
-import "./TickerItem.scss";
+import "./stylesheets/TickerItem.scss";
 import TickerItem from "./TickerItem";
 
 const texts = [

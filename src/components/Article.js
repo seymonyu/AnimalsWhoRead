@@ -16,7 +16,6 @@ class Article extends React.Component {
 
     const res = await req.json();
     this.setState({ activeArticle: res.articles[0] });
-    console.log(this.state.article);
   };
 
   render() {

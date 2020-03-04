@@ -1,11 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./Survey.scss";
-import frame from "./frame.svg";
+import "./stylesheets/Survey.scss";
+import frame from "./images/frame.svg";
 
 const Survey = props => (
-  <section id="survey">
-    <img src={frame} alt="frame" classApp="App-frame" />
+  <section id="survey" className="survey-body">
+    <img src={frame} alt="frame" />
     <div className="title-description">
       <div className="title">
         <h1>Feelings about Extinction</h1>
@@ -16,7 +16,7 @@ const Survey = props => (
     </div>
     <div className="contact">
       <div className="name">
-        <label for="name" id="name-label">
+        <label htmlFor="name" id="name-label">
           How are you called
         </label>
 
@@ -30,7 +30,7 @@ const Survey = props => (
       </div>
       {/* email  */}
       <div className="email">
-        <label for="email" id="email-label">
+        <label htmlFor="email" id="email-label">
           What is your email
         </label>
 
@@ -44,7 +44,7 @@ const Survey = props => (
       </div>
       {/* age */}
       <div className="age">
-        <label for="number" id="number-label">
+        <label htmlFor="number" id="number-label">
           Years on the planet
         </label>
 
@@ -82,23 +82,23 @@ const Survey = props => (
       <div className="choices">
         <div className="firstCheck">
           <input type="radio" id="first" name="name" />
-          <label for="first">Only few of us left...</label>
+          <label htmlFor="first">Only few of us left...</label>
         </div>
         <div className="secondCheck">
           <input type="radio" id="second" name="name" />
-          <label for="second">I think around 736,239</label>
+          <label htmlFor="second">I think around 736,239</label>
         </div>
         <div className="thirdCheck">
           <input type="radio" id="third" name="name" />
-          <label for="third">We are the whole continent!</label>
+          <label htmlFor="third">We are the whole continent!</label>
         </div>
         <div className="fourthCheck">
           <input type="radio" id="fourth" name="name" />
-          <label for="fourth">Never been good at maths...</label>
+          <label htmlFor="fourth">Never been good at maths...</label>
         </div>
         <div className="fifthCheck">
           <input type="radio" id="fifth" name="name" />
-          <label for="fifth">I don't want to disclose this</label>
+          <label htmlFor="fifth">I don't want to disclose this</label>
         </div>
       </div>
     </div>
@@ -108,29 +108,31 @@ const Survey = props => (
         <div>
           <input type="checkbox" id="first-checkbox" value="checkbox-1" />
 
-          <label for="first">
+          <label htmlFor="first">
             Yes! If you can you deliver in my local river.
           </label>
         </div>
         <div>
           <input type="checkbox" id="first-checkbox" value="checkbox-1" />
 
-          <label for="first">Yes please, love news and updates!</label>
+          <label htmlFor="first">Yes please, love news and updates!</label>
         </div>
         <div>
           <input type="checkbox" id="first-checkbox" value="checkbox-1" />
 
-          <label for="first">Maybe a good idea.</label>
+          <label htmlFor="first">Maybe a good idea.</label>
         </div>
         <div>
           <input type="checkbox" id="first-checkbox" value="checkbox-1" />
 
-          <label for="first">I will probably oversleep them anyway...</label>
+          <label htmlFor="first">
+            I will probably oversleep them anyway...
+          </label>
         </div>
         <div>
           <input type="checkbox" id="first-checkbox" value="checkbox-1" />
 
-          <label for="first">No! I don't care.</label>
+          <label htmlFor="first">No! I don't care.</label>
         </div>
       </div>
     </div>

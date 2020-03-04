@@ -1,8 +1,8 @@
 import React from "react";
-import "./Header.scss";
-import "./Global.scss";
-import Paw from "./img/Paw.svg";
-import Panda from "./img/Panda.svg";
+import "./stylesheets/Header.scss";
+import "./stylesheets/Global.scss";
+import Paw from "./images/Paw.svg";
+import Panda from "./images/Panda.svg";
 
 function Header({ handleChange, handleUserInput }) {
   return (

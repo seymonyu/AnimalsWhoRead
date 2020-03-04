@@ -1,6 +1,6 @@
 import React from "react";
-import "./Mission.scss";
-import "./Global.scss";
+import "./stylesheets/Mission.scss";
+import "./stylesheets/Global.scss";
 
 const Mission = () => {
   return (

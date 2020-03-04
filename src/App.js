@@ -8,6 +8,7 @@ import Articles from "./components/Articles";
 import Logo from "./components/Logo";
 import Mission from "./components/Mission";
 import NavBar from "./components/NavBar";
+import FooterMain from "./components/FooterMain";
 
 const API_KEY = "38c6325b37ef4200b8d0b52b8e8ab90b";
 
@@ -25,7 +26,6 @@ class App extends Component {
 
     const data = await api_call.json();
     this.setState({ articles: data.articles });
-    console.log(this.state.articles);
   };
 
   componentDidUpdate = () => {
@@ -43,6 +43,7 @@ class App extends Component {
         <Form getArticles={this.getArticles} />
         <Articles articles={this.state.articles} />
         <Ticker />
+        <FooterMain />
       </div>
     );
   }
