@@ -1,5 +1,33 @@
 /* ANIMALS ONLY */
 
+/* COLORS */
+$red: #f72143;
+$intense-blue: #1f33f6;
+$light-green: #c6ecc7;
+$dark-blue: #101b5f;
+$light-orange: #f0a56b;
+$orange: #ad5535;
+$green: #1e8059;
+$pink: #e57a9b;
+$white: #ffffff;
+
+/* FONT FAMILY */
+$font: "Roboto";
+
+/* FONT WEIGHTS */
+$light: 300;
+$medium: 500;
+
+/* FONT SIZE */
+$h1: 15vw;
+$h2: 5vw;
+$bodytext: 1.5vw;
+$marginal: 14px;
+
+/* BORDER */
+$border-thick: 20px;
+$border-thin: 3px;
+
 * {
   box-sizing: border-box;
 }
@@ -32,38 +60,43 @@ $duration: 15s;
 }
 
 .ticker-wrap {
-  font-family: "Montserrat" !important;
+  font-family: $font !important;
   bottom: 0;
   width: 100%;
   overflow: hidden;
   height: 10rem;
-  background-color: #1f33f6;
+  background: rgb(16, 27, 95);
+  background: linear-gradient(
+    90deg,
+    rgba(16, 27, 95, 1) 24%,
+    rgba(229, 122, 155, 1) 100%
+  );
+  color: $dark-blue;
+}
+.ticker {
+  display: inline-block;
+  height: 4rem;
+  line-height: 4rem;
+  white-space: nowrap;
   box-sizing: content-box;
-  color: black;
 
-  .ticker {
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-name: ticker;
+  animation-name: ticker;
+  -webkit-animation-duration: $duration;
+  animation-duration: $duration;
+
+  &__item {
     display: inline-block;
-    height: 4rem;
-    line-height: 4rem;
-    white-space: nowrap;
-    box-sizing: content-box;
 
-    -webkit-animation-iteration-count: infinite;
-    animation-iteration-count: infinite;
-    -webkit-animation-timing-function: linear;
-    animation-timing-function: linear;
-    -webkit-animation-name: ticker;
-    animation-name: ticker;
-    -webkit-animation-duration: $duration;
-    animation-duration: $duration;
-
-    &__item {
-      display: inline-block;
-
-      padding: 2.4rem;
-      font-size: 10rem;
-      color: black;
-    }
+    padding: 2.4rem;
+    font-size: 8rem;
+    background: -webkit-linear-gradient($pink, $dark-blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 }
 

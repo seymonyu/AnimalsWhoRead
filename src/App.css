@@ -1,0 +1,203 @@
+button:focus {
+  outline: none;
+}
+.App {
+  text-align: center;
+}
+.article_buttons {
+  border: solid 2px #c6ecc7;
+  background: transparent;
+  padding: 0.4rem 0.6rem;
+  margin: 0 0.2rem;
+  border-radius: 1px;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-left: 0.7rem;
+}
+.article_buttons:hover {
+  background-color: #c6ecc7;
+}
+.article_buttons a:hover {
+  color: black;
+}
+.articles__box {
+  background: #1f33f6;
+  border: solid 2px #e57a9b;
+  padding-bottom: 2rem;
+  box-shadow: -1px 2px 34px -13px white(0, 0, 0, 0.75);
+  text-align: left;
+  overflow: hidden;
+}
+.article__text {
+  margin-left: 15px;
+}
+.articles__title {
+  color: #e57a9b;
+  font-size: 1.1rem;
+  padding: 1.8rem 0 0.2rem 0;
+}
+.articles__subtitle {
+  text-transform: uppercase;
+  color: white;
+  font-weight: 600;
+  font-size: 0.5rem;
+  letter-spacing: 2px;
+}
+.articles__subtitle span {
+  color: #e57a9b;
+  text-transform: none;
+  font-weight: 400;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+}
+.form__input {
+  background: transparent;
+  border: 0;
+  border: solid 2px #c6ecc7;
+  margin-right: 10px;
+  letter-spacing: 2px;
+  width: 10%;
+  padding: 0.4rem;
+  color: white;
+}
+.form__button {
+  border: solid 2px #f72143;
+  background: transparent;
+  padding: 0.2rem 0.9rem;
+  margin: 0 0.2rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-left: 0.7rem;
+  color: white;
+}
+input[type="text"] {
+  outline: none;
+}
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 30px #f3f3f3 inset;
+  -webkit-text-fill-color: #2c3e50 !important;
+}
+.active-article {
+  margin: 0 auto;
+  width: 60%;
+}
+.active-article__img {
+  height: 500px !important;
+}
+.active-article__title {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 1rem 0;
+}
+.active-article__publisher,
+.active-article__website {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+.active-article__publisher span {
+  text-transform: none;
+  font-weight: 300;
+  letter-spacing: 2px;
+  margin-left: 5px;
+}
+.active-article__website span {
+  text-transform: lowercase;
+  font-weight: 300;
+  letter-spacing: 2px;
+  color: #f72143;
+  margin-left: 10px;
+}
+.active-article__button {
+  border: solid 2px #f72143;
+  background: transparent;
+  padding: 0.2rem 0.9rem;
+  margin: 0 0.2rem;
+  border-radius: 1px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.creators div {
+  display: inline-block;
+  font-size: 18pt;
+  color: #e57a9b;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.creators .persons {
+  padding: 12px;
+  margin: 18px;
+}
+.creators {
+  background-color: #c6ecc7;
+  font-size: 12pt;
+  height: 100%;
+  font-family: “Roboto”;
+}
+.creators div p {
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.creators div img {
+  width: 150px;
+  height: 150px;
+  border-top-left-radius: 50% 50%;
+  border-top-right-radius: 50% 50%;
+  border-bottom-right-radius: 50% 50%;
+  border-bottom-left-radius: 50% 50%;
+  margin-bottom: 20px;
+  -moz-box-shadow: 0px 6px 5px #ccc;
+  -webkit-box-shadow: 0px 6px 5px #ccc;
+  box-shadow: 0px 2px 10px #e57a9b;
+}
+.creators div:hover img {
+  width: 170px;
+  height: 170px;
+  opacity: 0.2;
+}
+.creators div:hover p {
+  font-size: 22pt;
+  opacity: 1;
+  color: #1f33f6;
+}
+.contact-links ul {
+  text-align: center;
+  align-items: center;
+  display: flex;
+}
+.contact-links ul li {
+  list-style-type: none;
+  text-decoration: none;
+  font-size: 12pt;
+  display: flex;
+}
+.contact-links ul li a {
+  font-size: 20pt;
+  color: #e57a9b !important;
+  margin: 5px;
+}
+.contact-links ul li a:hover {
+  font-size: 22pt;
+  color: #1f33f6 !important;
+  text-decoration: none;
+}
+.contact-links ul li a p {
+  color: #e57a9b;
+}
+.about-paws {
+  height: 100vh;
+  text-align: center;
+  background-color: #101b5f;
+}
+.about-paws h1 {
+  color: #c6ecc7;
+  font-size: 80pt;
+  font-family: "Roboto";
+}

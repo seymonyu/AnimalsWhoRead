@@ -1,0 +1,27 @@
+@import "./Global.scss";
+/* FOOTER */
+
+footer {
+  background-color: $pink;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+footer p {
+  color: $light-green;
+  font-size: 2rem;
+  padding-left: 10%;
+  line-height: 2.1rem;
+  width: 50%;
+}
+
+footer span {
+  font-size: 1.4rem;
+  padding-left: 10%;
+  color: $dark-blue;
+  width: 50%;
+}

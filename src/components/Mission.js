@@ -1,18 +1,27 @@
 import React from "react";
+import "./Mission.scss";
+import "./Global.scss";
 
 const Mission = () => {
   return (
-    <div className="mission-hero">
-      <div className="container">
-        <span></span>
-        <span className="mission-headline">Our Mission</span>
-        <p>
-          We are in danger! The stinky Humans try to destroy our homes and our
-          families. Read all about Human News to know what they are planning
-          next. Stand up, fight back!
-        </p>
+    <section id="mission">
+      <div className="frame--main">
+        <div className="row">
+          <div className="col-lg-3 col-sm-12">
+            <h2>Our Mission</h2>
+          </div>
+          <div className="col-lg-9 col-sm-12">
+            <p>
+              We are in danger! The stinky Humans try to destroy our homes and
+              our families. Read all about Human News to know what they are
+              planning next.
+              <br />
+              <span>Stand up, fight back!</span>
+            </p>
+          </div>
+        </div>
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -15,6 +15,13 @@ $medium: 500;
 
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap");
 
+@media screen and (max-width: 768px) {
+  img {
+    height: 20vh;
+    width: 50%;
+  }
+}
+
 section {
   display: flex;
   justify-content: center;
@@ -50,7 +57,7 @@ section {
   }
 }
 
-// Font size on Laptops
+// Title size on Laptops
 @media screen and (min-width: 1025px) and (max-width: 1824px) {
   .title-description .title h1 {
     font-size: 3rem;
@@ -102,7 +109,7 @@ section {
   }
 }
 
-// Font size on Laptops
+// Name form size on Laptops
 @media screen and (min-width: 1025px) and (max-width: 1824px) {
   .contact label {
     font-size: 1.2rem;
@@ -130,13 +137,18 @@ section {
   margin: 1rem;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+//Drop-down list on ipads and laptops
+@media screen and (min-width: 684px) and (max-width: 767px) {
   .dropdown-list {
-    width: 35%;
+    width: 15%;
   }
 }
 
-/* Logo on laptops (nav bar)*/
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .dropdown-list {
+    width: 25%;
+  }
+}
 
 @media screen and (min-width: 1025px) and (max-width: 1824px) {
   .dropdown-list {
@@ -155,7 +167,7 @@ section {
   }
 }
 
-/* Logo on laptops (nav bar)*/
+/* Labels for dropdown list on laptops */
 
 @media screen and (min-width: 1025px) and (max-width: 1824px) {
   .dropdown-list {
@@ -182,7 +194,7 @@ section {
   }
 }
 
-/* Logo on laptops (nav bar)*/
+/* Radio list on laptops */
 
 @media screen and (min-width: 1025px) and (max-width: 1824px) {
   .radio-list {
@@ -210,6 +222,7 @@ section {
   }
 }
 
+//Checkbox list on laptops
 @media screen and (min-width: 1025px) and (max-width: 1824px) {
   .checkbox-list {
     #checkbox-title {
@@ -218,6 +231,7 @@ section {
 
     .choices-checkbox {
       font-size: 1rem;
+      margin: 0 1;
     }
   }
 }
@@ -240,6 +254,7 @@ section {
   font-size: 0.8rem;
 }
 
+//Comment title on laptops
 @media screen and (min-width: 1025px) and (max-width: 1824px) {
   #comment-title {
     font-size: 1.2rem;
@@ -257,6 +272,7 @@ button {
   font-size: 0.8rem;
 }
 
+//button on laptops
 @media screen and (min-width: 1025px) and (max-width: 1824px) {
   button {
     font-size: 1rem;

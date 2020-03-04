@@ -4,7 +4,7 @@ import "./index.css";
 import Router from "./components/Router";
 import * as serviceWorker from "./serviceWorker";
 
-import "font-awesome/css/font-awesome.min.css";
+//import "font-awesome/css/font-awesome.min.css";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 

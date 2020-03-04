@@ -43,10 +43,6 @@ class Article extends React.Component {
             <button className="active-article__button">
               <Link to="/">Go Home</Link>
             </button>
-
-            <button className="active-article__button">
-              <Link to="/">Go Home</Link>
-            </button>
           </div>
         )}
       </div>
