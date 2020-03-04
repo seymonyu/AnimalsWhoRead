@@ -27,15 +27,12 @@ const Articles = props => (
                 </h5>
                 <p className="articles__subtitle">
                   Stinky Human Author: {article.author}
-<<<<<<< HEAD
-=======
                   {/*<span>
                     {article.author.length < 20
                       ? `${article.author}`
                       : `${article.author.substring(0, 10)}...`}
                   </span>
                   */}
->>>>>>> scssbybirte
                 </p>
               </div>
               <button className="article_buttons">

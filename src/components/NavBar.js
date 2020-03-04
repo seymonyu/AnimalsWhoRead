@@ -1,5 +1,5 @@
 import React from "react";
-import "./navbar.scss";
+import "./stylesheets/navbar.scss";
 
 const NavBar = props => (
   <nav className="navbar navbar-expand-lg navbar-light bg-light">
