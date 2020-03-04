@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./Article.scss";
 
 const API_KEY = "38c6325b37ef4200b8d0b52b8e8ab90b";
 

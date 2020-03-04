@@ -29,7 +29,7 @@ form {
   position: relative;
   box-sizing: border-box;
   background-color: #e57a9b;
-  border-width: 1.25vw;
+  border-width: 0.7vw;
   border-style: solid;
   border-color: initial;
   transition: opacity 0.6s ease-out 0.6s;
@@ -52,6 +52,10 @@ form {
 }
 input[type="text"] {
   outline: none;
+  color: #e57a9b;
+  font-size: 1.3rem !important;
+  letter-spacing: normal;
+  padding-left: 2%;
 }
 input:-webkit-autofill {
   -webkit-box-shadow: 0 0 0 50px #f3f3f3 inset;
@@ -62,7 +66,7 @@ input:-webkit-autofill {
 input {
   background: #fff;
   border: 0;
-  border: solid 1.2vw #c6ecc7;
+  border: solid 0.7vw #c6ecc7;
   letter-spacing: 2px;
   width: 70%;
   padding: 0.4rem;

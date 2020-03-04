@@ -1,0 +1,77 @@
+/* COLORS */
+$red: #f72143;
+$intense-blue: #1f33f6;
+$light-green: #c6ecc7;
+$dark-blue: #101b5f;
+$light-orange: #f0a56b;
+$orange: #ad5535;
+$green: #1e8059;
+$pink: #e57a9b;
+$white: #ffffff;
+
+/* FONT FAMILY */
+$font: "Roboto";
+
+/* FONT WEIGHTS */
+$light: 300;
+$medium: 500;
+
+/* FONT SIZE */
+$h1: 15vw;
+$h2: 5vw;
+$bodytext: 1.5vw;
+$marginal: 14px;
+
+/* BORDER */
+$border-thick: 20px;
+$border-thin: 3px;
+
+/******** Article.js ********/
+
+.active-article {
+  margin: 0 auto;
+  width: 60%;
+}
+
+.active-article__img {
+  height: 500px !important;
+}
+
+.active-article__title {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 1rem 0;
+}
+
+.active-article__publisher,
+.active-article__website {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.active-article__publisher span {
+  text-transform: none;
+  font-weight: 300;
+  letter-spacing: 2px;
+  margin-left: 5px;
+}
+
+.active-article__website span {
+  text-transform: lowercase;
+  font-weight: 300;
+  letter-spacing: 2px;
+  color: #f72143;
+  margin-left: 10px;
+}
+
+.active-article__button {
+  border: solid 2px #f72143;
+  background: transparent;
+  padding: 0.2rem 0.9rem;
+  margin: 0 0.2rem;
+  border-radius: 1px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 500;
+}
