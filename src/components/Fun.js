@@ -16,7 +16,7 @@ import octop from "./images/octop.gif";
 
 const Fun = props => (
   <section id="fun">
-    <header className="header">
+    <header className="header-fun">
       <h1>Animals have Fun !</h1>
     </header>
     <div className="gif">
@@ -72,9 +72,11 @@ const Fun = props => (
         </div>
       </div>
     </div>
-    <button className="active-article__button">
-      <Link to="/">Go Home</Link>
-    </button>
+    <div className="button-fun">
+      <button className="active-article__button">
+        <Link to="/">Go Home</Link>
+      </button>
+    </div>
   </section>
 );
 

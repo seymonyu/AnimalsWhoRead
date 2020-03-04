@@ -20,7 +20,7 @@ const NavBar = props => (
     <div className="collapse navbar-collapse" id="navbarNav">
       <ul className="navbar-nav">
         <li className="nav-item active">
-          <a className="nav-link">
+          <a className="nav-link" href="/">
             Home <span className="sr-only">(current)</span>
           </a>
         </li>

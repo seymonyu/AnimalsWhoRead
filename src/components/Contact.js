@@ -24,12 +24,14 @@ function Contact(props) {
         </p>
         <img src={Paw} className="navbar__brand-img" alt="logo" />
       </div>
-      <button className="home_from_contact">
-        <Link to="/" className="contact-button">
-          Go Home
-        </Link>
-      </button>
       <Footer />
+      <div className="button-contact-group">
+        <button className="home_from_contact">
+          <Link to="/" className="contact-button">
+            Go Home
+          </Link>
+        </button>
+      </div>
     </div>
   );
 }

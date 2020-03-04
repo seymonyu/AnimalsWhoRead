@@ -55,9 +55,15 @@ function Footer(props) {
           </ul>
         </div>
       </div>
+
       <div className="persons" id="seyma">
         <div className="avatar">
-          <a href="" target="_blank" alt="seyma" rel="noopener noreferrer">
+          <a
+            href="https://instagram.com/seymonyuu"
+            target="_blank"
+            alt="seyma"
+            rel="noopener noreferrer"
+          >
             <img
               src="https://media-exp1.licdn.com/dms/image/C4E03AQEFZoXL9erV7Q/profile-displayphoto-shrink_200_200/0?e=1588809600&v=beta&t=k5TF3PHin04H0OuWi0yvg6Cn1_GPEeDpz8Unr9_x6Fo"
               alt="seyma"
@@ -77,16 +83,18 @@ function Footer(props) {
                 <i className="fab fa-github"></i>
               </a>
             </li>
+
             <li>
               <a
                 id="instagram"
-                href="https://instagram.com/seymonyuu"
+                href="https://www.instagram.com/seymonyuu/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <i className="fab fa fa-instagram"></i>
+                <i className="fab fa-instagram"></i>
               </a>
             </li>
+
             <li>
               <a
                 id="linkedin"
@@ -100,6 +108,7 @@ function Footer(props) {
           </ul>
         </div>
       </div>
+
       <div className="persons" id="birte">
         <div className="avatar">
           <a
@@ -127,6 +136,7 @@ function Footer(props) {
                 <i className="fab fa-github"></i>
               </a>
             </li>
+
             <li>
               <a
                 id="instagram"
@@ -134,9 +144,10 @@ function Footer(props) {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <i className="fab fa fa-instagram"></i>
+                <i className="fab fa-instagram"></i>
               </a>
             </li>
+
             <li>
               <a
                 id="linkedin"
@@ -180,6 +191,7 @@ function Footer(props) {
                 <i className="fab fa-github"></i>
               </a>
             </li>
+
             <li>
               <a
                 id="instagram"
@@ -187,9 +199,10 @@ function Footer(props) {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <i className="fab fa fa-instagram"></i>
+                <i className="fab fa-instagram"></i>
               </a>
             </li>
+
             <li>
               <a
                 id="linkedin"

@@ -192,9 +192,42 @@ $medium: 500;
     font-size: 1rem;
   }
 
-  .choices {
+  .choices-radio {
     margin: 0 2rem;
-    font-size: 0.8rem;
+  }
+
+  .firstCheck {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .secondCheck {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .thirdCheck {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .fourthCheck {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .fifthCheck {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
   }
 }
 

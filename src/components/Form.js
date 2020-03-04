@@ -10,7 +10,7 @@ const Form = props => (
     <span>
       Search Human News. <br></br>Enter Species here!
     </span>
-    <div class="arrow bounce"></div>
+    <div className="arrow bounce"></div>
     <input className="form__input" type="text" name="articleName" />
     <button className="btn">Check it out!</button>
   </form>

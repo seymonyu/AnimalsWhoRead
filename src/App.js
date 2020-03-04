@@ -5,7 +5,6 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Header from "./components/Header";
 import Form from "./components/Form";
 import Articles from "./components/Articles";
-import Logo from "./components/Logo";
 import Mission from "./components/Mission";
 import NavBar from "./components/NavBar";
 import FooterMain from "./components/FooterMain";

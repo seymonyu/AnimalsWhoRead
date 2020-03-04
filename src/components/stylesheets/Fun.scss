@@ -17,13 +17,13 @@ body {
   background-color: $dark-blue;
 }
 
-.header {
+.header-fun {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.header h1 {
+.header-fun h1 {
   color: $red;
   font-size: 4rem;
   font-family: "Roboto";
@@ -48,4 +48,10 @@ body {
   .gif {
     width: 100%;
   }
+}
+
+.button-fun {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

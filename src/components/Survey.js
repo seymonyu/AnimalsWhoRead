@@ -77,31 +77,33 @@ const Survey = props => (
         <option value="fifth-choice">Prefer not to answer.</option>
       </select>
     </div>
+
     <div className="radio-list">
       <label id="radio-title">Do you know how big is your species?</label>
-      <div className="choices row">
-        <div className="firstCheck col-12">
+      <div className="choices-radio">
+        <div className="firstCheck">
           <input type="radio" id="first" name="name" />
           <label htmlFor="first">Only few of us left...</label>
         </div>
-        <div className="secondCheck col-12">
+        <div className="secondCheck">
           <input type="radio" id="second" name="name" />
           <label htmlFor="second">I think around 736,239</label>
         </div>
-        <div className="thirdCheck col-12">
+        <div className="thirdCheck">
           <input type="radio" id="third" name="name" />
           <label htmlFor="third">We are the whole continent!</label>
         </div>
-        <div className="fourthCheck col-12">
+        <div className="fourthCheck">
           <input type="radio" id="fourth" name="name" />
           <label htmlFor="fourth">Never been good at maths...</label>
         </div>
-        <div className="fifthCheck col-12">
+        <div className="fifthCheck">
           <input type="radio" id="fifth" name="name" />
           <label htmlFor="fifth">I don't want to disclose this</label>
         </div>
       </div>
     </div>
+
     <div className="checkbox-list">
       <label id="checkbox-title">Do you want extinction updates?</label>
       <div className="choices-checkbox">
@@ -139,9 +141,10 @@ const Survey = props => (
     <div className="comment">
       <label id="comment-title">If you can actually type, leave message</label>
 
-      <textarea className="comment-text">
-        here you can leave your comments and advices
-      </textarea>
+      <textarea
+        className="comment-text"
+        placeholder="here you can leave your comments and advice"
+      ></textarea>
     </div>
 
     <button type="submit" id="submit">
