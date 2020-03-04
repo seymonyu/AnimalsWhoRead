@@ -15,13 +15,21 @@ $medium: 500;
 
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap");
 
+.survey--img {
+  height: 20vh;
+  width: 50%;
+  margin-top: 7%;
+  margin-bottom: 7%;
+}
+
+/*
 @media screen and (max-width: 768px) {
-  img {
+  .survey--img {
     height: 20vh;
     width: 50%;
   }
 }
-
+*/
 .survey-body {
   display: flex;
   justify-content: center;
@@ -37,13 +45,9 @@ $medium: 500;
   }
 
   .title h1 {
-    font-size: 1.7rem;
+    font-size: 4vw;
     font-weight: $medium;
-    color: $light-orange;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
+    color: $light-orange !important;
   }
 
   p {
@@ -68,7 +72,7 @@ $medium: 500;
   }
 }
 
-.contact {
+.contact--survey {
   .name {
     display: flex;
     flex-direction: row;
@@ -286,4 +290,26 @@ button {
 
 .active-article__button {
   margin: 0 0 1rem;
+}
+
+/* BIRTE */
+
+.dropdown-list #dropdown {
+  font-size: 0.9rem;
+  color: $pink;
+}
+
+.dropdown-list label {
+  font-size: 1.4rem;
+  color: #c6ecc7;
+  margin-top: 15%;
+}
+
+label {
+  display: inline-block;
+  color: $light-green;
+}
+
+.choices {
+  width: 50%;
 }
