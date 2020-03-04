@@ -29,7 +29,7 @@ $border-thin: 3px;
 form {
   background-color: $pink;
   min-height: 20vh;
-  border-top: $dark-blue solid;
+
   border-width: 1.25vw;
   display: flex;
   flex-direction: column;
@@ -42,13 +42,12 @@ form {
   justify-content: center;
   align-items: center;
   background-color: $light-orange;
-  height: 30vh;
   flex-direction: column;
   margin-bottom: 30%;
 }
 
 .btn {
-  border-radius: 0px;
+  border-radius: 30px;
   width: 60vw;
   color: $white;
   background-color: $light-orange;
@@ -56,7 +55,7 @@ form {
   max-height: 70px;
   display: flex;
   align-items: center;
-  width: 70%;
+  width: 50%;
   margin: auto;
   max-width: 22em;
   position: relative;
@@ -88,5 +87,66 @@ form {
       rgb(240, 165, 107) 60%,
       rgb(30, 128, 89) 100%
     );
+  }
+}
+
+input[type="text"] {
+  outline: none;
+}
+
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 30px #f3f3f3 inset;
+  -webkit-text-fill-color: #2c3e50 !important;
+}
+
+input {
+  background: $white;
+  border: 0;
+  border: solid 1.2vw #c6ecc7;
+  letter-spacing: 2px;
+  width: 70%;
+  padding: 0.4rem;
+  color: white;
+  margin-top: 4%;
+  border-image-source: linear-gradient(
+    40deg,
+    rgb(229, 122, 155) 0%,
+    rgb(240, 165, 107) 40%,
+    rgb(240, 165, 107) 60%,
+    rgb(30, 128, 89) 100%
+  );
+  border-image-slice: 1;
+}
+
+.arrow {
+  position: relative;
+  bottom: -2rem;
+  width: 40px;
+  height: 40px;
+
+  /**
+   * Dark Arrow Down
+   */
+  background-image: url("./img/Arrow.svg");
+  background-size: contain;
+}
+
+.bounce {
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
   }
 }
