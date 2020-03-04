@@ -390,10 +390,10 @@ nav a {
   font-family: "Roboto";
 }
 
-.about-paws h1 {
+#contact .about-paws h1 {
   color: #c6ecc7;
   font-size: 60pt;
-
+  padding-top: 30px;
   font-family: "Roboto";
 }
 
@@ -404,10 +404,15 @@ nav a {
   font-size: 20pt;
   color: #e57a9b;
   font-weight: lighter;
+  padding-top: 100px;
 
   margin-left: 100px;
   margin-right: 100px;
 }
 .about-paws .header {
   text-align: center;
+}
+.contact-button {
+  color: #e57a9b;
+  position: relative;
 }
