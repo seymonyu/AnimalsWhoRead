@@ -40,14 +40,13 @@ $border-thin: 3px;
   }
 }
 
-.frame--main:nth-child(1) {
+.frame--mission:nth-child(1) {
   width: calc(100% - 16vw);
   height: calc(100% - 16vw);
   position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
-  top: 8vw;
   left: 8vw;
   z-index: 2;
   border-image-width: initial;
@@ -69,13 +68,13 @@ $border-thin: 3px;
 }
 
 @media screen and (max-width: 900px) {
-  .frame--main:nth-child(1) {
+  .frame--mission:nth-child(1) {
     height: 80vh;
   }
 }
 
 @media screen and (max-width: 600px) {
-  .frame--main:nth-child(1) {
+  .frame--mission:nth-child(1) {
     height: 60vh;
   }
 }
@@ -124,7 +123,7 @@ body {
   color: $green;
 }
 
-h2 {
+.h2--mission {
   font-size: 300%;
   color: $light-green;
   margin: 5%;
@@ -134,7 +133,7 @@ h2 {
 }
 
 @media screen and (max-width: 600px) {
-  h2 {
+.h2--mission {
     padding-top: 30%;
     font-size: 1.3rem;
   }

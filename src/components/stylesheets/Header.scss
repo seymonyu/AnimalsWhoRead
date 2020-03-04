@@ -47,7 +47,7 @@ main {
   display: block;
 }
 
-section {
+.header--section {
   padding: 24px;
   position: relative;
   width: 100%;
@@ -254,7 +254,7 @@ section {
 
 .panda {
   width: 70%;
-  height: 30vh;
+  height: 60vh;
 }
 
 @media screen and (max-width: 900px) {

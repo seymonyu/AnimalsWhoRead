@@ -7,7 +7,7 @@ import Panda from "./images/Panda.svg";
 function Header({ handleChange, handleUserInput }) {
   return (
     <main>
-      <section>
+      <section className="header--section">
         <div className="bg--main">
           <div></div>
           <div className="frame--main">

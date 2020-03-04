@@ -59,7 +59,7 @@ form {
   position: relative;
   box-sizing: border-box;
   background-color: $pink;
-  border-width: 1.25vw;
+  border-width: 0.7vw;
   border-style: solid;
   border-color: initial;
   transition: opacity 0.6s ease-out 0.6s;
@@ -84,6 +84,10 @@ form {
 
 input[type="text"] {
   outline: none;
+  color: $pink;
+  font-size: 1.3rem !important;
+  letter-spacing: normal;
+  padding-left: 2%;
 }
 
 input:-webkit-autofill {
@@ -96,7 +100,7 @@ input:-webkit-autofill {
 input {
   background: $white;
   border: 0;
-  border: solid 1.2vw #c6ecc7;
+  border: solid 0.7vw #c6ecc7;
   letter-spacing: 2px;
   width: 70%;
   padding: 0.4rem;
