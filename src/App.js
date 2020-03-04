@@ -39,9 +39,9 @@ class App extends Component {
         <NavBar />
         <Logo />
         <Header />
-        <Mission />
         <Form getArticles={this.getArticles} />
         <Articles articles={this.state.articles} />
+        <Mission />
         <Ticker />
         <FooterMain />
       </div>

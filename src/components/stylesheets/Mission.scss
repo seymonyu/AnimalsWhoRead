@@ -30,7 +30,6 @@ $border-thin: 3px;
 
 #mission {
   background-color: $dark-blue;
-  border-top: $green solid;
   border-width: 1.25vw;
   height: 93vh;
 }
@@ -56,10 +55,10 @@ $border-thin: 3px;
   border-image-repeat: initial;
   border-image-source: linear-gradient(
     40deg,
-    rgb(198, 236, 199) 0%,
+    rgb(229, 122, 155) 0%,
     rgb(16, 27, 95) 40%,
     rgb(16, 27, 95) 60%,
-    rgb(229, 122, 155) 100%
+    rgb(198, 236, 199) 100%
   );
   border-image-slice: 1;
   opacity: 1;
@@ -103,10 +102,14 @@ $border-thin: 3px;
   }
 }
 
+body {
+  background-color: $dark-blue;
+}
+
 #mission p {
   font-size: 200%;
   margin: 5%;
-  background: -webkit-linear-gradient($pink, $light-green);
+  background: -webkit-linear-gradient($light-green, $pink);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -123,7 +126,7 @@ $border-thin: 3px;
 
 h2 {
   font-size: 300%;
-  color: #fff;
+  color: $light-green;
   margin: 5%;
   padding-top: 10%;
   align-self: flex-start;
