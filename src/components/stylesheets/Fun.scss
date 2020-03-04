@@ -1,0 +1,57 @@
+/* COLORS */
+$red: #f72143;
+$intense-blue: #1f33f6;
+$light-green: #c6ecc7;
+$dark-blue: #101b5f;
+$light-orange: #f0a56b;
+$orange: #f85f28;
+$green: #1e8059;
+$pink: #e57a9b;
+/* FONT FAMILY */
+$font: "Roboto";
+/* FONT WEIGHTS */
+$light: 300;
+$medium: 500;
+
+body {
+  background-color: $dark-blue;
+}
+
+.header-fun {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-fun h1 {
+  color: $red;
+  font-size: 4rem;
+  font-family: "Roboto";
+  background-color: $light-orange;
+  margin: 2rem 2rem;
+}
+
+.gif {
+  padding-top: 30px;
+  padding-bottom: 70px;
+  background-color: $dark-blue;
+  margin-block-start: -1em;
+}
+
+@media screen and (max-width: 400px) and (min-width: 451px) and (max-width: 1024px) {
+  .gif {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .gif {
+    width: 100%;
+  }
+}
+
+.button-fun {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

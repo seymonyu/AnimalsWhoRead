@@ -1,0 +1,119 @@
+form {
+  background-color: #e57a9b;
+  border-width: 1.25vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.btn--section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0a56b;
+  flex-direction: column;
+  margin-bottom: 30%;
+}
+.btn {
+  border-radius: 30px;
+  width: 60vw;
+  color: #fff;
+  background-color: #f0a56b;
+  margin-top: 2%;
+  max-height: 70px;
+  display: flex;
+  align-items: center;
+  width: 50%;
+  margin: auto;
+  max-width: 22em;
+  position: relative;
+  box-sizing: border-box;
+  background-color: #e57a9b;
+  border-width: 0.7vw;
+  border-style: solid;
+  border-color: initial;
+  transition: opacity 0.6s ease-out 0.6s;
+  margin-bottom: 10%;
+  margin-top: 5%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.btn:hover {
+  color: #fff;
+  transition: 0.5s;
+  background: linear-gradient(
+    40deg,
+    #e57a9b 0%,
+    #f0a56b 40%,
+    #f0a56b 60%,
+    #1e8059 100%
+  );
+}
+input[type="text"] {
+  outline: none;
+  color: #e57a9b;
+  font-size: 1.3rem !important;
+  letter-spacing: normal;
+  padding-left: 2%;
+}
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 50px #f3f3f3 inset;
+  -webkit-text-fill-color: #e57a9b !important;
+  font-size: 1.3rem !important;
+  padding-left: 2%;
+}
+input {
+  background: #fff;
+  border: 0;
+  border: solid 0.7vw #c6ecc7;
+  letter-spacing: 2px;
+  width: 70%;
+  padding: 0.4rem;
+  color: white;
+  margin-top: 4%;
+  border-image-source: linear-gradient(
+    40deg,
+    #e57a9b 0%,
+    #f0a56b 40%,
+    #f0a56b 60%,
+    #1e8059 100%
+  );
+  border-image-slice: 1;
+  margin-bottom: 3%;
+}
+.arrow {
+  position: relative;
+  bottom: -2rem;
+  width: 90px;
+  height: 90px;
+  background-image: url("./images/Arrow.svg");
+  background-size: contain;
+}
+.bounce {
+  animation: bounce 2s infinite;
+}
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+form span {
+  color: #fff;
+  padding-top: 5%;
+  font-weight: 500;
+  font-size: 1.4rem;
+}
+button {
+  margin-bottom: 5%;
+}

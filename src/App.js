@@ -5,8 +5,9 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Header from "./components/Header";
 import Form from "./components/Form";
 import Articles from "./components/Articles";
-import Logo from "./components/Logo";
 import Mission from "./components/Mission";
+import NavBar from "./components/NavBar";
+import FooterMain from "./components/FooterMain";
 
 const API_KEY = "38c6325b37ef4200b8d0b52b8e8ab90b";
 
@@ -15,9 +16,8 @@ class App extends Component {
     articles: []
   };
 
-  // Making the API Call
   getArticles = async e => {
-    const articleName = e.target.elements.articleName.value;
+    const articleName = e.target.elements.articleName.value || "chicken";
     e.preventDefault();
     const api_call = await fetch(
       `http://newsapi.org/v2/everything?q=${articleName}&apiKey=${API_KEY}&pageSize=20`
@@ -25,13 +25,6 @@ class App extends Component {
 
     const data = await api_call.json();
     this.setState({ articles: data.articles });
-    console.log(this.state.articles);
-  };
-
-  componentDidMount = () => {
-    const json = localStorage.getItem("articles");
-    const articles = JSON.parse(json);
-    this.setState({ articles: articles });
   };
 
   componentDidUpdate = () => {
@@ -42,11 +35,13 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Logo />
+        <NavBar />
         <Header />
-        <Mission />
         <Form getArticles={this.getArticles} />
         <Articles articles={this.state.articles} />
+        <Mission />
+        <Ticker />
+        <FooterMain />
       </div>
     );
   }

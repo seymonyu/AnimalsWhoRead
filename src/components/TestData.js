@@ -26,7 +26,6 @@ class TestArticle extends Component {
   }
 
   render() {
-    console.log(this.state.data);
     return <div></div>;
   }
 }

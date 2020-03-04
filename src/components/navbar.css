@@ -1,0 +1,78 @@
+.navbar {
+  z-index: 2;
+}
+.navbar-brand {
+  font-size: 40px;
+  font-weight: 500;
+  padding-left: 3%;
+  padding-bottom: 4%;
+  padding-top: 4%;
+  color: #e57a9b;
+  z-index: 100;
+}
+@media screen and (max-width: 900px) {
+  .navbar-brand {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .navbar-brand {
+    font-size: 20px;
+  }
+}
+.navbar-collapse {
+  font-size: 2vw;
+  padding-left: 3%;
+}
+@media screen and (max-width: 900px) {
+  .navbar-collapse {
+    font-size: 5vw;
+  }
+}
+.navbar-light .navbar-toggler {
+  color: #101b5f;
+  border-color: transparent;
+}
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover {
+  color: #101b5f;
+}
+.navbar-toggler {
+  padding: 0.25rem 0.75rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+}
+.navbar-light .navbar-toggler-icon {
+  background-image: url(./img/toggler.svg);
+  width: 100px;
+}
+@media screen and (max-width: 600px) {
+  .navbar-light .navbar-toggler-icon {
+    width: 30px;
+  }
+}
+.navbar-brand a {
+  color: #e57a9b !important;
+}
+.bg-light {
+  background-color: #fff 163, 163, 163, 0 !important;
+}
+.navbar-light .navbar-brand {
+  color: #1e8059;
+}
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: #1e8059;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #1e8059;
+}
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #e57a9b;
+}

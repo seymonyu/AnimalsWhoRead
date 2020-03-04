@@ -1,9 +1,18 @@
 import React from "react";
+import "./Form.scss";
 
 const Form = props => (
-  <form onSubmit={props.getArticles} style={{ marginBottom: "2rem" }}>
+  <form
+    className="btn--section"
+    onSubmit={props.getArticles}
+    style={{ marginBottom: "2rem" }}
+  >
+    <span>
+      Search Human News. <br></br>Enter Species here!
+    </span>
+    <div className="arrow bounce"></div>
     <input className="form__input" type="text" name="articleName" />
-    <button className="form__button">friends'n'foes stalking</button>
+    <button className="btn">Check it out!</button>
   </form>
 );
 

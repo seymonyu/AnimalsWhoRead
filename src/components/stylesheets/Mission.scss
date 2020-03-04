@@ -1,0 +1,140 @@
+/* COLORS */
+$red: #f72143;
+$intense-blue: #1f33f6;
+$light-green: #c6ecc7;
+$dark-blue: #101b5f;
+$light-orange: #f0a56b;
+$orange: #ad5535;
+$green: #1e8059;
+$pink: #e57a9b;
+$white: #ffffff;
+
+/* FONT FAMILY */
+$font: "Roboto";
+
+/* FONT WEIGHTS */
+$light: 300;
+$medium: 500;
+
+/* FONT SIZE */
+$h1: 15vw;
+$h2: 5vw;
+$bodytext: 1.5vw;
+$marginal: 14px;
+
+/* BORDER */
+$border-thick: 20px;
+$border-thin: 3px;
+
+/* MISSION */
+
+#mission {
+  background-color: $dark-blue;
+  border-width: 1.25vw;
+  height: 93vh;
+}
+
+@media screen and (max-width: 700px) {
+  #mission {
+    height: 70vh;
+  }
+}
+
+.frame--mission:nth-child(1) {
+  width: calc(100% - 16vw);
+  height: calc(100% - 16vw);
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 8vw;
+  z-index: 2;
+  border-image-width: initial;
+  border-image-outset: initial;
+  border-image-repeat: initial;
+  border-image-source: linear-gradient(
+    40deg,
+    rgb(229, 122, 155) 0%,
+    rgb(16, 27, 95) 40%,
+    rgb(16, 27, 95) 60%,
+    rgb(198, 236, 199) 100%
+  );
+  border-image-slice: 1;
+  opacity: 1;
+  border-width: 1.25vw;
+  border-style: solid;
+  border-color: initial;
+  transition: opacity 0.6s ease-out 0.6s;
+}
+
+@media screen and (max-width: 900px) {
+  .frame--mission:nth-child(1) {
+    height: 80vh;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .frame--mission:nth-child(1) {
+    height: 60vh;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  section:nth-child(1) {
+    height: 80vh;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  section:nth-child(1) {
+    height: 60vh;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .col-sm-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    align-self: flex-start;
+    top: -60px;
+  }
+}
+
+body {
+  background-color: $dark-blue;
+}
+
+#mission p {
+  font-size: 200%;
+  margin: 5%;
+  background: -webkit-linear-gradient($light-green, $pink);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media screen and (max-width: 900px) {
+  #mission p {
+    font-size: 5vw;
+  }
+}
+
+#mission span {
+  color: $green;
+}
+
+.h2--mission {
+  font-size: 300%;
+  color: $light-green;
+  margin: 5%;
+  padding-top: 10%;
+  align-self: flex-start;
+  padding-left: 8%;
+}
+
+@media screen and (max-width: 600px) {
+.h2--mission {
+    padding-top: 30%;
+    font-size: 1.3rem;
+  }
+}

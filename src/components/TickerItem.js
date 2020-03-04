@@ -1,5 +1,5 @@
 import React from "react";
-import "./TickerItem.scss";
+import "./stylesheets/TickerItem.scss";
 
 function TickerItem(props) {
   return <div className="ticker__item">{props.text}</div>;
