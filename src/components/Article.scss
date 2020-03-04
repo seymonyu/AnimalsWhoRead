@@ -28,26 +28,44 @@ $border-thin: 3px;
 
 /******** Article.js ********/
 
+.container--article {
+  background: rgb(30, 128, 89);
+  background: linear-gradient(
+    180deg,
+    rgba(30, 128, 89, 1) 24%,
+    rgba(16, 27, 95, 1) 100%
+  );
+  height: 100%;
+  width: 100%;
+}
+
+.article--wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .active-article {
   margin: 0 auto;
   width: 60%;
 }
 
 .active-article__img {
-  height: 500px !important;
+  height: 300px !important;
+  margin-top: 10%;
+  border: $pink solid 0.7vw;
 }
 
 .active-article__title {
-  text-transform: uppercase;
-  letter-spacing: 2px;
+  color: $pink;
   margin: 1rem 0;
 }
 
 .active-article__publisher,
 .active-article__website {
-  text-transform: uppercase;
+  color: $light-green;
   font-size: 1.2rem;
-  margin-bottom: 1rem;
+  margin-bottom: 4rem;
 }
 
 .active-article__publisher span {
@@ -61,17 +79,63 @@ $border-thin: 3px;
   text-transform: lowercase;
   font-weight: 300;
   letter-spacing: 2px;
-  color: #f72143;
+  color: $light-orange;
   margin-left: 10px;
 }
 
+.active-article__website a {
+  text-transform: lowercase;
+  font-weight: 300;
+  color: $light-orange;
+  margin-left: 10px;
+  &:hover {
+    color: $pink;
+    text-decoration: none;
+  }
+}
+
 .active-article__button {
-  border: solid 2px #f72143;
-  background: transparent;
-  padding: 0.2rem 0.9rem;
-  margin: 0 0.2rem;
-  border-radius: 1px;
-  font-size: 1rem;
-  text-transform: uppercase;
-  font-weight: 500;
+  border-radius: 30px;
+  width: 60vw;
+  color: $white;
+  background-color: $light-orange;
+  margin-top: 7%;
+  max-height: 70px;
+  display: flex;
+  align-items: center;
+  width: 50%;
+  margin: auto;
+  max-width: 22em;
+  position: relative;
+  box-sizing: border-box;
+  background-color: $pink;
+  border-width: 0.7vw;
+  border-style: solid;
+  border-color: initial;
+  transition: opacity 0.6s ease-out 0.6s;
+  margin-bottom: 10%;
+  margin-top: 10%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+
+  &:hover {
+    color: $white;
+    transition: 0.5s;
+    background: linear-gradient(
+      40deg,
+      rgb(229, 122, 155) 0%,
+      rgb(240, 165, 107) 40%,
+      rgb(240, 165, 107) 60%,
+      rgb(30, 128, 89) 100%
+    );
+  }
+}
+
+.active-article__button a {
+  color: $dark-blue;
+  &:hover {
+    text-decoration: none;
+    color: $dark-blue;
+  }
 }

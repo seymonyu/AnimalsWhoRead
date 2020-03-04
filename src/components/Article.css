@@ -1,20 +1,32 @@
+.container--article {
+  background: #1e8059;
+  background: linear-gradient(180deg, #1e8059 24%, #101b5f 100%);
+  height: 100%;
+  width: 100%;
+}
+.article--wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .active-article {
   margin: 0 auto;
   width: 60%;
 }
 .active-article__img {
-  height: 500px !important;
+  height: 300px !important;
+  margin-top: 10%;
+  border: #e57a9b solid 0.7vw;
 }
 .active-article__title {
-  text-transform: uppercase;
-  letter-spacing: 2px;
+  color: #e57a9b;
   margin: 1rem 0;
 }
 .active-article__publisher,
 .active-article__website {
-  text-transform: uppercase;
+  color: #c6ecc7;
   font-size: 1.2rem;
-  margin-bottom: 1rem;
+  margin-bottom: 4rem;
 }
 .active-article__publisher span {
   text-transform: none;
@@ -26,16 +38,59 @@
   text-transform: lowercase;
   font-weight: 300;
   letter-spacing: 2px;
-  color: #f72143;
+  color: #f0a56b;
   margin-left: 10px;
 }
+.active-article__website a {
+  text-transform: lowercase;
+  font-weight: 300;
+  color: #f0a56b;
+  margin-left: 10px;
+}
+.active-article__website a:hover {
+  color: #e57a9b;
+  text-decoration: none;
+}
 .active-article__button {
-  border: solid 2px #f72143;
-  background: transparent;
-  padding: 0.2rem 0.9rem;
-  margin: 0 0.2rem;
-  border-radius: 1px;
-  font-size: 1rem;
-  text-transform: uppercase;
-  font-weight: 500;
+  border-radius: 30px;
+  width: 60vw;
+  color: #fff;
+  background-color: #f0a56b;
+  margin-top: 7%;
+  max-height: 70px;
+  display: flex;
+  align-items: center;
+  width: 50%;
+  margin: auto;
+  max-width: 22em;
+  position: relative;
+  box-sizing: border-box;
+  background-color: #e57a9b;
+  border-width: 0.7vw;
+  border-style: solid;
+  border-color: initial;
+  transition: opacity 0.6s ease-out 0.6s;
+  margin-bottom: 10%;
+  margin-top: 10%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.active-article__button:hover {
+  color: #fff;
+  transition: 0.5s;
+  background: linear-gradient(
+    40deg,
+    #e57a9b 0%,
+    #f0a56b 40%,
+    #f0a56b 60%,
+    #1e8059 100%
+  );
+}
+.active-article__button a {
+  color: #101b5f;
+}
+.active-article__button a:hover {
+  text-decoration: none;
+  color: #101b5f;
 }

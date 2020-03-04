@@ -5,10 +5,10 @@ import "./Global.scss";
 const Mission = () => {
   return (
     <section id="mission">
-      <div className="frame--main">
+      <div className="frame--mission">
         <div className="row">
           <div className="col-lg-3 col-sm-12">
-            <h2>Our Mission</h2>
+            <h2 className="h2--mission">Our Mission</h2>
           </div>
           <div className="col-lg-9 col-sm-12">
             <p>
