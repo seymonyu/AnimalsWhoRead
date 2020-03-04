@@ -1,41 +1,13 @@
-/* COLORS */
-$red: #f72143;
-$intense-blue: #1f33f6;
-$light-green: #c6ecc7;
-$dark-blue: #101b5f;
-$light-orange: #f0a56b;
-$orange: #ad5535;
-$green: #1e8059;
-$pink: #e57a9b;
-$white: #ffffff;
-
-/* FONT FAMILY */
-$font: "Roboto";
-
-/* FONT WEIGHTS */
-$light: 300;
-$medium: 500;
-
-/* FONT SIZE */
-$h1: 15vw;
-$h2: 5vw;
-$bodytext: 1.5vw;
-$marginal: 14px;
-
-/* BORDER */
-$border-thick: 20px;
-$border-thin: 3px;
-
 .navbar {
   z-index: 2;
 }
 .navbar-brand {
   font-size: 40px;
-  font-weight: $medium;
+  font-weight: 500;
   padding-left: 3%;
   padding-bottom: 4%;
   padding-top: 4%;
-  color: $pink;
+  color: #e57a9b;
   z-index: 100;
 }
 @media screen and (max-width: 900px) {
@@ -58,12 +30,12 @@ $border-thin: 3px;
   }
 }
 .navbar-light .navbar-toggler {
-  color: $dark-blue;
-  border-color: rgba(0, 0, 0, 0);
+  color: #101b5f;
+  border-color: transparent;
 }
 .navbar-light .navbar-brand:focus,
 .navbar-light .navbar-brand:hover {
-  color: $dark-blue;
+  color: #101b5f;
 }
 .navbar-toggler {
   padding: 0.25rem 0.75rem;
@@ -73,37 +45,30 @@ $border-thin: 3px;
   border: 1px solid transparent;
   border-radius: 0.25rem;
 }
-
-/*
-.navbar-light .navbar-toggler-icon {
-  background-image: url(./stylesheets/images/toggler.svg);
-  width: 100px;
-}
-*/
 @media screen and (max-width: 600px) {
   .navbar-light .navbar-toggler-icon {
     width: 30px;
   }
 }
 .navbar-brand a {
-  color: $pink !important;
+  color: #e57a9b !important;
 }
 .bg-light {
-  background-color: $white(163, 163, 163, 0) !important;
+  background-color: #fff 163, 163, 163, 0 !important;
 }
 .navbar-light .navbar-brand {
-  color: $green;
+  color: #1e8059;
 }
 .navbar-light .navbar-nav .active > .nav-link,
 .navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .show > .nav-link {
-  color: $green;
+  color: #1e8059;
 }
 .navbar-light .navbar-nav .nav-link {
-  color: $green;
+  color: #1e8059;
 }
 .navbar-light .navbar-nav .nav-link:focus,
 .navbar-light .navbar-nav .nav-link:hover {
-  color: $pink;
+  color: #e57a9b;
 }

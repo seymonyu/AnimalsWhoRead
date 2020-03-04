@@ -37,7 +37,6 @@ class App extends Component {
     return (
       <div className="App">
         <NavBar />
-
         <Header />
         <Form getArticles={this.getArticles} />
         <Articles articles={this.state.articles} />

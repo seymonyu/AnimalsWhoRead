@@ -1,0 +1,216 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap");
+.survey--img {
+  height: 20vh;
+  width: 50%;
+  margin-top: 7%;
+  margin-bottom: 7%;
+}
+.survey-body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #101b5f;
+  font-family: "Roboto";
+}
+.title-description .title-description {
+  padding: 1rem 1rem;
+}
+.title-description .title h1 {
+  font-size: 4vw;
+  font-weight: 500;
+  color: #f0a56b !important;
+}
+.title-description p {
+  color: #e57a9b;
+  font-weight: 500;
+  font-size: 0.9rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+@media screen and (min-width: 1025px) and (max-width: 1824px) {
+  .title-description .title h1 {
+    font-size: 3rem;
+  }
+  .description p {
+    font-size: 2rem;
+  }
+}
+.contact--survey .name {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.contact--survey .email {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.contact--survey .age {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.contact--survey #name {
+  margin: 0 0.5rem;
+  font-size: 0.8rem;
+}
+.contact--survey #email-input {
+  margin: 0 0.74rem;
+  font-size: 0.8rem;
+}
+.contact--survey #number {
+  margin: 0 0.4rem;
+  font-size: 0.8rem;
+}
+.contact--survey label {
+  font-size: 0.9rem;
+  color: #c6ecc7;
+  margin: 0 1 0;
+}
+@media screen and (min-width: 1025px) and (max-width: 1824px) {
+  .contact label {
+    font-size: 1.2rem;
+  }
+  .contact #name {
+    font-size: 1rem;
+  }
+  .contact #email-input {
+    font-size: 1rem;
+  }
+  .contact #number {
+    font-size: 1rem;
+    margin: 0 0.3rem;
+  }
+}
+.dropdown-list {
+  display: flex;
+  flex-direction: column;
+  width: 72%;
+  margin: 1rem;
+}
+@media screen and (min-width: 684px) and (max-width: 767px) {
+  .dropdown-list {
+    width: 15%;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .dropdown-list {
+    width: 25%;
+  }
+}
+@media screen and (min-width: 1025px) and (max-width: 1824px) {
+  .dropdown-list {
+    width: 26%;
+  }
+}
+.dropdown-list label {
+  font-size: 1rem;
+  color: #c6ecc7;
+}
+.dropdown-list #dropdown {
+  font-size: 0.8rem;
+}
+@media screen and (min-width: 1025px) and (max-width: 1824px) {
+  .dropdown-list label {
+    font-size: 1.2rem;
+  }
+  .dropdown-list #dropdown {
+    font-size: 1rem;
+  }
+}
+.radio-list #radio-title {
+  margin: 2rem;
+  color: #c6ecc7;
+  font-size: 1rem;
+}
+.radio-list .choices {
+  margin: 0 2rem;
+  font-size: 0.8rem;
+}
+@media screen and (min-width: 1025px) and (max-width: 1824px) {
+  .radio-list #radio-title {
+    font-size: 1.2rem;
+  }
+  .radio-list .choices {
+    font-size: 1rem;
+  }
+}
+.checkbox-list #checkbox-title {
+  margin: 2rem;
+  font-size: 1.2rem;
+  color: #c6ecc7;
+  font-size: 1rem;
+}
+.checkbox-list .choices-checkbox {
+  margin: 0 2rem;
+  font-size: 0.8rem;
+}
+@media screen and (min-width: 1025px) and (max-width: 1824px) {
+  .checkbox-list #checkbox-title {
+    font-size: 1.2rem;
+  }
+  .checkbox-list .choices-checkbox {
+    font-size: 1rem;
+    margin: 0 1;
+  }
+}
+.comment {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#comment-title {
+  font-size: 1rem;
+  color: #c6ecc7;
+  margin: 1.2rem;
+}
+.comment-text {
+  width: 80%;
+  font-size: 0.8rem;
+}
+@media screen and (min-width: 1025px) and (max-width: 1824px) {
+  #comment-title {
+    font-size: 1.2rem;
+  }
+  .comment-text {
+    font-size: 1rem;
+  }
+}
+button {
+  color: #101b5f;
+  background-color: #c6ecc7;
+  margin: 1rem;
+  font-size: 0.8rem;
+}
+@media screen and (min-width: 1025px) and (max-width: 1824px) {
+  button {
+    font-size: 1rem;
+  }
+}
+#submit:hover {
+  color: #101b5f;
+  background-color: #f0a56b;
+}
+.active-article__button {
+  margin: 0 0 1rem;
+}
+.dropdown-list #dropdown {
+  font-size: 0.9rem;
+  color: #e57a9b;
+}
+.dropdown-list label {
+  font-size: 1.4rem;
+  color: #c6ecc7;
+  margin-top: 15%;
+}
+label {
+  display: inline-block;
+  color: #c6ecc7;
+}
+.choices {
+  width: 50%;
+}

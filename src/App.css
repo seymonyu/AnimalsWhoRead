@@ -1,9 +1,6 @@
 button:focus {
   outline: none;
 }
-.App {
-  text-align: center;
-}
 .article_buttons {
   border: solid 2px #c6ecc7;
   background: transparent;
@@ -50,34 +47,6 @@ button:focus {
   font-weight: 400;
   font-size: 0.8rem;
   letter-spacing: 1px;
-}
-.form__input {
-  background: transparent;
-  border: 0;
-  border: solid 2px #c6ecc7;
-  margin-right: 10px;
-  letter-spacing: 2px;
-  width: 10%;
-  padding: 0.4rem;
-  color: white;
-}
-.form__button {
-  border: solid 2px #f72143;
-  background: transparent;
-  padding: 0.2rem 0.9rem;
-  margin: 0 0.2rem;
-  font-size: 1rem;
-  text-transform: uppercase;
-  font-weight: 500;
-  margin-left: 0.7rem;
-  color: white;
-}
-input[type="text"] {
-  outline: none;
-}
-input:-webkit-autofill {
-  -webkit-box-shadow: 0 0 0 30px #f3f3f3 inset;
-  -webkit-text-fill-color: #2c3e50 !important;
 }
 .active-article {
   margin: 0 auto;
