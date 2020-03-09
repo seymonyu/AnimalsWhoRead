@@ -36,12 +36,12 @@
   box-shadow: 0px 2px 10px #e57a9b;
 }
 .creators div:hover img {
-  width: 170px;
-  height: 170px;
+  width: 160px;
+  height: 160px;
   opacity: 0.2;
 }
 .creators div:hover p {
-  font-size: 22pt;
+  font-size: 20pt;
   opacity: 1;
   color: #1f33f6;
 }
@@ -76,7 +76,7 @@
   font-family: "Roboto";
 }
 #contact .about-paws h1 {
-  color: #c6ecc7;
+  color: #e57a9b;
   font-size: 60pt;
   padding-top: 30px;
   font-family: "Roboto";
@@ -104,4 +104,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+#mission {
+  background-color: #101b5f;
+  border-width: 1.25vw;
+  height: 93vh;
+}
+
+#contact .about-paws .contact-p {
+  font-size: 22pt;
+}
+#contact {
+  height: 100%;
 }
