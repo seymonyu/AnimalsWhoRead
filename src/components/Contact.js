@@ -8,8 +8,9 @@ function Contact(props) {
   return (
     <div className="contacts-page" id="contact">
       <div className="about-paws">
-        <h1 id="about-pawh"> About Paws </h1>
-
+        <div>
+          <h1 id="about-pawh"> About Paws </h1>
+        </div>
         <div className="frame--mission">
           <div className="row">
             <p className="contact-p">
